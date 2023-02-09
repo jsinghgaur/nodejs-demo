@@ -4,6 +4,7 @@ pipeline {
             label 'java-build-server'
         }
     }
+    tool {NodeJS "NodeJS"}
     stages{
         stage('SCM checkout'){
             steps{
